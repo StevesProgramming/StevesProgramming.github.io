@@ -1,0 +1,100 @@
+@font-face {
+    font-family: 'StarWarsFont';
+    src:url('../fonts/star-wars-text/StarJedi-DGRW.ttf') format('truetype'),
+        url('../fonts/star-wars-text/StarJedi.ttf') format('truetype'),
+        url("../fonts/star-wars-text/StarJedi-DGRW.woff2") format('woff2'),
+        url("../fonts/star-wars-text/StarJedi.woff") format('woff');
+}
+
+@font-face {
+    font-family: 'galactic-basic';
+    src:url('../fonts/alien-text/GalacticBasic-rznB.eot') format('OpenType'),
+        url('../fonts/alien-text/GalacticBasic-rznB.tff') format('truetype'),
+        url('../fonts/alien-text/GalacticBasic-rznB.woff2') format('woff2');
+}
+
+nav, ul {
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+    overflow: hidden;
+    background-color: #333;
+    display: flex;
+    justify-content: center;
+}
+
+li {
+    float: left;
+    padding: 10px 0px;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+    background-color: #111;
+}
+
+.nav-title {
+    font-family: 'StarWarsFont';
+    padding: 0px 100px;
+    font-size: 40px;
+    
+}
+
+.active {
+    padding: 20px;
+    margin: 0px 60px;
+    font-size: 20px;
+}
+
+body {
+    margin: 0px;
+}
+
+.main-article {
+    border: 1px solid red;
+    width: 900px;
+    height: 431px;
+    /*padding: 200px 100px;*/
+    margin: 100px auto;
+}
+
+
+
+.main-image {
+    border: 1px solid green;
+    padding: 1px;
+    width: 527px;
+    height: 431px;
+    display: inline-block;
+}
+
+img.main-article {
+    width: 527px;
+    height: 431px;
+    float: left;
+}
+
+.main-heading {
+    display: inline-block;
+    text-align: center;
+    margin: auto 0;
+    border: 1px solid blue;
+    width: 40%;
+    height: 100%;
+    vertical-align: top;
+    word-wrap: break-word;
+    font-size: 30px;
+    font-family: 'galactic-basic';
+}
+
+.main-heading:hover {
+    font-family: 'arial';
+}

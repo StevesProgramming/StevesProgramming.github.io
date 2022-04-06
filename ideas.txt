@@ -1,0 +1,4 @@
+Ideas:
+
+- All text on screen is news articles written in the alien-text font from star wars. when govering over with mouse
+radius circle translates the text to english as you mouse along. (Like sidemen sides opening screen on their website)
